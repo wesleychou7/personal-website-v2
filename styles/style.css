@@ -1,0 +1,65 @@
+/* header */
+.header {
+    justify-content: center;
+    display: flex;
+    /* border: 1px solid black; */
+    margin: 20px;
+}
+#header-text {
+    margin-left: 20px;
+}
+#me-img {
+    width: 10%; /*need to fix this becus it shrinks*/
+}
+
+
+/* intro */
+.intro {
+    justify-content: center;
+    display: flex;
+    /* border: 1px solid black; */
+    margin: 20px;
+}
+
+
+/*vertical line*/
+.vl {
+    border-left: 1px solid rgb(96, 96, 96);
+    height: 500px; 
+    left: 50%;
+    margin-top: 20px;
+}
+
+/* column */
+.row {
+    display: flex;
+}
+.column {
+    flex: 50%;
+    margin-top: 30px;
+}
+#left {
+    text-align: right;
+    margin-right: 50px;
+}
+.company {
+    font-size:25px;
+    margin-bottom: 10px;
+}
+.position {
+    margin-bottom: 10px;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+li {
+    margin-bottom: 10px;
+}
+#right {
+    margin-left: 50px;
+    margin-right: 60px;
+    text-align: left;
+    /* border: 1px solid red; */
+}
+
