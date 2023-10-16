@@ -1,3 +1,7 @@
+* {
+    font-family: Verdana, sans-serif;
+}
+
 /* header */
 .header {
     justify-content: center;
@@ -19,14 +23,15 @@
     justify-content: center;
     display: flex;
     /* border: 1px solid black; */
-    margin: 20px;
+    margin: 20px 400px 20px 400px;
 }
 
 
 /*vertical line*/
 .vl {
-    border-left: 1px solid rgb(96, 96, 96);
-    height: 500px; 
+    border-left: 1px solid gray;
+    height: 600px;
+    position: absolute;
     left: 50%;
     margin-top: 20px;
 }
@@ -37,15 +42,17 @@
 }
 .column {
     flex: 50%;
-    margin-top: 30px;
+    margin-top: 35px;
 }
 #left {
+    /* border: 1px solid red; */
     text-align: right;
-    margin-right: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 .logo {
     float: left;
-    margin-left: 130px;
+    margin-left: 50px;
 }
 #sony-logo {
     width: 130px;
@@ -69,11 +76,8 @@ li {
     margin-bottom: 10px;
 }
 #right {
-    padding-left: 50px;
-    margin-right: 60px;
-    /* margin-bottom: ; */
-    border-left: 1px solid gray;
+    /* border: 1px solid red; */
+    margin-right: 100px;
     text-align: left;
-
 }
 
