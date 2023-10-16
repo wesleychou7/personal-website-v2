@@ -9,7 +9,8 @@
     margin-left: 20px;
 }
 #me-img {
-    width: 10%; /*need to fix this becus it shrinks*/
+    width: 130px; /*need to fix this becus it shrinks*/
+    height: 130px;
 }
 
 
@@ -42,6 +43,17 @@
     text-align: right;
     margin-right: 50px;
 }
+.logo {
+    float: left;
+    margin-left: 130px;
+}
+#sony-logo {
+    width: 130px;
+}
+#cm-logo {
+    width: 130px;
+}
+
 .company {
     font-size:25px;
     margin-bottom: 10px;
@@ -57,9 +69,11 @@ li {
     margin-bottom: 10px;
 }
 #right {
-    margin-left: 50px;
+    padding-left: 50px;
     margin-right: 60px;
+    /* margin-bottom: ; */
+    border-left: 1px solid gray;
     text-align: left;
-    /* border: 1px solid red; */
+
 }
 
