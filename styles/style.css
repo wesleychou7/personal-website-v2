@@ -4,16 +4,24 @@
 
 /* header */
 .header {
+    /* border: 1px solid rgb(255, 0, 0); */
     justify-content: center;
     display: flex;
-    /* border: 1px solid black; */
     margin: 20px;
 }
-#header-text {
+#header-body {
     margin-left: 20px;
 }
+#name {
+    font-weight: bold;
+    font-size: 40px;
+}
+#welcome {
+    margin-top: 5px;
+    font-size: 17px;
+}
 #me-img {
-    width: 130px; /*need to fix this becus it shrinks*/
+    width: 130px;
     height: 130px;
 }
 
@@ -27,7 +35,7 @@
 }
 
 
-/*vertical line*/
+/* vertical line */
 .vl {
     border-left: 1px solid gray;
     height: 600px;
