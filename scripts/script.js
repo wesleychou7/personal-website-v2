@@ -17,7 +17,7 @@ function copyEmail() {
 
     // change element's image source for 2 seconds, and switch back to original
     element.src = "images/check.png";
-    setTimeout(function() {
+    setTimeout(() => {
         element.src = "images/copy.png";
     }, 1500);
 }
