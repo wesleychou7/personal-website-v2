@@ -4,7 +4,7 @@
 
 /* header */
 .header {
-    /* border: 1px solid rgb(255, 0, 0); */
+    border: 1px solid rgb(255, 0, 0);
     justify-content: center;
     display: flex;
     margin: 20px;
@@ -18,11 +18,33 @@
 }
 #welcome {
     margin-top: 5px;
+    margin-bottom: 10px;
     font-size: 17px;
 }
 #me-img {
     width: 130px;
     height: 130px;
+}
+a {
+    text-decoration: none;
+}
+img.socials:hover{
+    background-color: rgb(225, 225, 225);
+    border-radius: 5px;
+}
+.socials {
+    width: 35px;
+    height: 35px;
+    margin-right: 5px;
+}
+#resume {
+    width: 31px;
+    height: 33px;
+}
+#gmail {
+    width: 37px;
+    height: 30px;
+    padding-bottom: 1px;
 }
 
 
