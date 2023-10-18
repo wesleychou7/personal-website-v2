@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter&family=Raleway&display=swap" rel="stylesheet">
+    <script src="scripts/script.js"></script>
     <title>Wesley Chou</title>
 </head>
 <body>
@@ -15,18 +16,21 @@
         <div id="header-body">
             <div id="name">Wesley Chou</div>
             <div id="welcome">Welcome to my website!</div>
+
             <a href="http://www.linkedin.com/in/wesley-chou-713640235" target="_blank">
                 <img src="images/linkedin.png" alt="LinkedIn" class="socials">
             </a>
             <a href="https://github.com/wesleychou7" target="_blank">
                 <img src="images/github.svg" alt="GitHub" class="socials">
             </a>
-            <a href="" target="_blank">
-                <img src="images/resume.png" alt="Resume" class="socials" id="resume">
-            </a>
-            <a href="" target="_blank">
-                <img src="images/gmail.png" alt="Gmail" class="socials" id="gmail">
-            </a>
+            <img src="images/gmail.png" alt="Gmail" class="socials" 
+                onclick=displayEmail() id="gmail">
+
+            <span id="email-box">
+                <span>wesleychou9851@gmail.com</span>
+                <img src="images/copy.png" alt="Copy" id="copy" onclick="">
+            </span>
+
         </div>
     </div>
 
