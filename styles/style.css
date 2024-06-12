@@ -71,7 +71,7 @@ img.socials:hover{
 /* vertical line */
 .vl {
     border-left: 1px solid gray;
-    height: 600px;
+    height: 800px;
     position: absolute;
     left: 50%;
     margin-top: 20px;
@@ -81,9 +81,13 @@ img.socials:hover{
 .row {
     display: flex;
 }
-.column {
+.column-first {
     flex: 50%;
     margin-top: 35px;
+}
+.column {
+    flex: 50%;
+    margin-top: 60px;
 }
 #left {
     /* border: 1px solid red; */
